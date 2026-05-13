@@ -19,7 +19,7 @@
 </head>
 <body>
 
-  <div id="status">🔍 Looking for Hiro Marker...</div>
+  <div id="status">Hiro Marker...</div>
 
   <a-scene
     embedded
@@ -74,7 +74,7 @@
     });
 
     marker.addEventListener('markerLost', () => {
-      statusEl.textContent = '🔍 Looking for Hiro Marker...';
+      statusEl.textContent = 'Hiro Marker...';
       statusEl.style.backgroundColor = 'rgba(0, 0, 0, 0.75)';
     });
   </script>
